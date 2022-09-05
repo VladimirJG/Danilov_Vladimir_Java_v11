@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class BinarySearch {
     public static void main(String[] args) {
+        // массив должен быть отсортирован, иначе код не сработает
         int[] sortedArray = {9, 12, 15, 35, 44, 59, 68, 73};
         Arrays.sort(sortedArray);
         int key = 12;
